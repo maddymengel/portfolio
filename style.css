@@ -1,0 +1,193 @@
+body {
+    background-color: #090B52;
+}
+
+html {
+    box-sizing: border-box;
+    font: size 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+ol, ul{
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* Font Styles */
+h1, h2, h4, h6 {
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3, h5, p {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+h1 {
+    color: #fff;
+    font-size: 128px;
+    text-align: center;
+}
+h2 {
+    color: #090B52;
+    font-size: 48px;
+    text-align: left;
+}
+
+h3 {
+    color: #F4B4D5;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: .5em;
+
+}
+
+h4 {
+    color: #F4B4D5;
+    font-size: 48px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+h6 {
+    color: #003CFE;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #090B52;
+}
+
+
+/* Header Styles */
+header a {
+    display:inline block;
+}
+header img {
+    height:60px;
+    margin:10px;
+}
+header img {
+    display:inline-block;
+}
+
+
+/* Media Queries */
+@media  (min-width: 769px) {
+    header {
+        height: 70px;
+    }
+    nav {
+        float: right;
+    }
+    #hero {
+        height:40vh;
+        padding: 24px;
+    }
+    .column {
+        padding:24px;
+        height: 400px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 128px;
+        text-align: center;
+    }
+}
+
+
+/* Button Styles */
+button {
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid #003CFE;
+    border-radius: 20px;
+    background-color: #003CFE;
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+/* ID selectors */
+#hero {
+    margin: 10px;
+}
+
+
+#project-card {
+    width: auto;
+    height:700px;
+    padding:24px;
+    margin:10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+#columns {
+    display:grid;
+    gap:20px;
+    grid-template-columns: 2fr 3fr 1fr;
+    padding: 10px;
+}
+
+
+/* Layout */
+.column {
+    border-radius: 20px;
+    background-color: white;
+    vertical-align: top;
+    contain:content;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#profile-image {
+    padding:0px;
+    overflow: hidden;
+}
+
+#about {
+    background-color: #F4B4D5;
+    columns: 2;
+    column-gap: 20px;
+}
+
+.about-text {
+    break-inside: avoid;
+}
+
+#contact-button {
+    background-color: #003CFE;
+}
+
+
+/* Contact */

@@ -1,0 +1,44 @@
+*//to be added to contact page//*
+
+<html>
+
+
+<body>
+    <main>
+        <section>
+            <div>
+                <h3>
+                    Why hello, it's nice to finally e-meet you.
+                </h3>
+                <h1>
+                    Let's chat soon!
+                </h1>
+            </div>
+        </section>
+        <article>
+            <div class="container">
+                <form>
+                    <h2>Contact</h2>
+
+                    <form action="https://formspree.io/f/xqkojrej" method="post"></form>
+
+                    <label for="yourname">Name</label>
+                    <input type="text" id="yourname" name"yourname" placeholder="Name">
+
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name"email" placeholder="Email">
+
+                    <label for="textarea">Message</label>
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                    
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </article>
+    </main>
+</body>
+
+
+</html>
