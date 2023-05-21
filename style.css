@@ -32,7 +32,7 @@ h1, h2, h4 {
     text-decoration: none;
 }
 
-h3, h5, h6, p, label {
+a, h3, h5, h6, p, label {
     font-family: 'Raleway';
     font-size: 1rem;
 }
@@ -186,11 +186,11 @@ nav{
 
 .mobile-nav {
     background-color: #090B52;
-    position: absolute;
+    position:absolute;
+    display: block;
     width: 100%;
     height: 100%;
     left: 200%;
-    transition: all 300ms ease-in-out;
     padding: 24px;
     padding-top: 120px;
 }
@@ -212,7 +212,7 @@ nav{
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     touch-action: none;
 }
 
