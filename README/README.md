@@ -70,8 +70,3 @@ Features to come:
 
 Images of progress shots can be found here:
 README /readme.images/contact
-
-
-
-Technical features
-{insert description}
